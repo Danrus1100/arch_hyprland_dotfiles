@@ -1,0 +1,2 @@
+swww-daemon
+

@@ -1,0 +1,14 @@
+width=450
+height=270
+x=722
+y=20
+
+columns=2
+
+no_actions=true
+hide_scroll=true
+
+image_size=20
+prompt=search
+term=alacritty
+#hide_search=false скрывать панель поиска
