@@ -1,4 +1,4 @@
-[dotfiles](image.png)
+(image.png)
 
 ---
 
