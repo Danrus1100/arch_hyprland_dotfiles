@@ -1,0 +1,5 @@
+New PolkitAgentListener  0x63931e409800
+Adding new listener  PolkitQt1::Agent::Listener(0x63931e408e90) for  0x63931e409800
+Listener online
+Authentication agent result: true
+The Wayland connection broke. Did the Wayland compositor die?

@@ -1,0 +1,61 @@
+(
+    defwindow menu
+    :monitor 0
+    :geometry (geometry :x "0%"
+                        :y "25px"
+                        :width "30%"
+                        :height "30%"
+                        :anchor "bottom center")
+    :stacking "overlay"
+    (
+     box
+     :class "main_box"
+     :orientation "v"
+     time
+     (metric :label "󰕾" :value volume :onchange "amixer -D pulse sset Master {}%")
+     ;(metric :label "" :value microphone :onchange "amixer -D pulse sset Capture {}%") ;uncomment if u want the mic control (dosent work on my pc)
+     (systray
+      :icon-size 40
+     )
+     )
+)
+    
+
+(defwidget metric [label value onchange]
+  (box :orientation "v"
+       :class "metric"
+       :space-evenly false
+       (scale :min 0
+           :max 101
+           :active {onchange != ""}
+           :value value
+           :onchange onchange)
+       (box :class "label" label)
+
+       )
+)
+
+(defwidget status_btn [label onclick ?onrightclick]
+    (box :orientation "v"
+        :class "stat_btn"
+         (button :onclick onclick
+                 :onrightclick onrightclick
+            label
+         )
+    )
+)
+
+
+(defpoll time :interval "5s"
+  "date '+%H:%M    %d %B %Y   %A'")
+
+(defpoll volume :interval "1s"
+  "sh getvol")
+
+(defpoll microphone :interval "1s"
+  "sh getmic")
+
+(defpoll bt_status :interval "1s"
+ "sh bt_status.sh")
+
+

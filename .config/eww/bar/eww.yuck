@@ -1,0 +1,30 @@
+(
+    defwindow bar
+    :monitor 0
+    :geometry (geometry :x "0%"
+                        :y "1%"
+                        :width "45px"
+                        :height "99%"
+                        :anchor "left center")
+    :stacking "overlay"
+    :exclusive "true"
+   (
+        box
+        :orientation "v"
+        (status_stuff)
+    )
+
+)
+
+(
+    defwidget status_stuff []
+    (
+        box
+        :class "widgets"
+        :orientation "v"
+        "2"
+        ""
+    )
+
+)
+

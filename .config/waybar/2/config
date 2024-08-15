@@ -2,10 +2,11 @@
     "layer": "top",
     "position": "left",
     "modules-left": ["hyprland/workspaces"], //up
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "custom/n-center", "battery", "pulseaudio", "hyprland/language", "clock"],
+//   "modules-center": ["hyprland/window"],
+    "modules-right": ["battery", "hyprland/language"],
     "clock": {
-        "format": "{:%H\n%M}" 
+        "format": "{:%H\n%M}",
+        "format-alt": "{:%d\n%m\n%y}"
     },
     "hyprland/workspaces": {
         "format": "{name}"
@@ -34,7 +35,7 @@
         "format": "{icon}",
         "format-icons": [" ", " ", " ", " ", " "],
         "tooltip": true,
-        "tooltip-format": "{capacity}%"
+        "tooltip-format": "{capacity}%",
     },
     "custom/n-center": {
         "format": "󰂚",
@@ -63,5 +64,11 @@
     "custom/arch": {
         "format": " ",
         "on-click": "wofi --show drun"
+    }, 
+
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "vertical"
     }
   }

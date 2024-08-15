@@ -1,0 +1,1 @@
+amixer -D pulse sget Capture | awk -F '[^0-9]+' '/Left:/{print $3}'

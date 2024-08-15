@@ -1,3 +1,5 @@
+@import 'colors-waybar.css';
+
 * {
     border: none;
     border-radius: 0;
@@ -12,26 +14,46 @@ window#waybar {
     color: white;
 }
 
-#custom-arch, #clock, #workspaces, #pulseaudio, #language, #tray, #battery, #custom-n-center, #window, #group-status{
+#custom-arch, #pulseaudio-slider, #clock, #workspaces, #pulseaudio, #language, #tray, #battery, #custom-n-center, #window, #group-status{
     border-radius:13;
     border-width: 5;
-    border: 4 solid #83B4FF;
+    border: 4 solid @color14;
     border-radius:13;
-    background: rgba(26, 33, 48, .75);
-    color: white;
+    background: @background_rgba;
+    color: @color15;
     padding: 2;
 }
 
 #workspaces button {
     border-radius: 10;
     background: transparent;
-    color: white;
+    color: @color15;
     padding: 3;
 }
 
 #workspaces button.active {
     border-radius: 10;
-    background: #83B4FF;
-    color: white;
+    background: @color2;
+    color: @color15;
     padding: 3;
+}
+
+#pulseaudio-slider slider {
+    min-height: 10px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+#pulseaudio-slider trough {
+    min-height: 80px;
+    min-width: 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: @color15;
 }
