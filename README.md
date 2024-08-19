@@ -15,6 +15,7 @@
 - cliphist 
 - Hypridle
 - Hyprlock
+- Wofi
 
 ---
 
