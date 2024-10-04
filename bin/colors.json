@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/danrus/wallpapers/jane.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#110f10",
+        "foreground": "#ddd5d1",
+        "cursor": "#ddd5d1"
+    },
+    "colors": {
+        "color0": "#110f10",
+        "color1": "#676869",
+        "color2": "#90394D",
+        "color3": "#866E6D",
+        "color4": "#777D81",
+        "color5": "#77888B",
+        "color6": "#929999",
+        "color7": "#ddd5d1",
+        "color8": "#9a9592",
+        "color9": "#676869",
+        "color10": "#90394D",
+        "color11": "#866E6D",
+        "color12": "#777D81",
+        "color13": "#77888B",
+        "color14": "#929999",
+        "color15": "#ddd5d1"
+    }
+}
