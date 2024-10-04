@@ -6,7 +6,6 @@
 
 - EWW
 - SWWW
-- Waybar
 - Kitty
 - PyWal
 - zsh
@@ -24,9 +23,12 @@
 - Super + Space = Wofi
 - Super + Q = Wallpapers changer
 - Super + Enter = Open Kitty
-- Super + B = Hide Waybar
+- Super + B = Hide Bar
 - Super + V = Clipboard Manager
 - Super + E = EWW Status Menu
 - Super + L = Hyprlock
 - Caps = Change Languague
 - Super + Shift + Escape = Exit Hyprland
+- Super + Escape = Power Menu
+- Super + S = Scratchpad
+- Super + Shift + S = Move window to Scratchpad
