@@ -1,0 +1,50 @@
+(
+    defwindow menu
+    :monitor 0
+    :geometry (geometry :x "0%"
+                        :y "25px"
+                        :width "30%"
+                        :height "20%"
+                        :anchor "center")
+    :stacking "overlay"
+    :exclusive false
+    (
+        box
+        :class "main_box"
+        :orientation "v"
+        :spacing 5
+        (
+            box 
+            :orientation "h" 
+            :spacing 5
+            (item :icon "󰐥" :text "power off" :on_click "systemctl poweroff")
+            (item :icon "󰑓" :text "reboot" :on_click "systemctl reboot")
+        )
+        (
+            box 
+            :orientation "h" 
+            :spacing 5
+            (item :icon "󰈆" :text "exit" :on_click "hyprctl dispatch exit")
+            (item :icon "󰤄" :text "suspend" :on_click "systemctl suspend && eww close menu -c ~/.config/eww/power_menu")
+        )
+    )
+)
+
+(
+    defwidget item [icon text on_click]
+    (
+        button
+        :onclick on_click
+        (
+            box
+            :orientation "v"
+            :class "item"
+            (
+                box
+                :class "icon"
+                icon
+            )
+            text
+        )
+    )  
+)

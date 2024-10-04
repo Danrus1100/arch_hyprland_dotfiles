@@ -1,0 +1,11 @@
+@import 'colors-waybar.css';
+
+* {all: unset;}
+
+
+
+.clock {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 150px;
+    color: @foreground;
+}

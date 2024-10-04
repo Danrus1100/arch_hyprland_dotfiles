@@ -1,30 +1,105 @@
+(defpoll wrkspc :interval "1ms" "python ~/.config/eww/bar/scripts/hyprland_workspaces.py")
+(defpoll hourse :interval "10s" "date '+%H'")
+(defpoll minutes :interval "10s" "date '+%M'")
+(defpoll bat_icon :interval "1m" "sh ~/.config/eww/bar/scripts/batary.sh")
+(defpoll bat_cap :interval "1m" "upower -i $(upower -e | grep battery) | grep -E 'percentage' | awk '{print $2}'")
+(defpoll lang :interval "1ms" "hyprctl devices -j | jq -r '.keyboards[] | .active_keymap' | head -n1 | cut -c1-2 | tr 'a-z' 'A-Z'")
+
+(defvar bat_reval false)
+(defvar vol_reval false)
+(defvar eww "eww -c $HOME/.config/eww/bar")
+
 (
     defwindow bar
     :monitor 0
-    :geometry (geometry :x "0%"
-                        :y "1%"
+    :geometry (geometry :x "0.3%"
+                        :y "0%"
                         :width "45px"
-                        :height "99%"
+                        :height "30%"
                         :anchor "left center")
-    :stacking "overlay"
+    :stacking "overlay" 
     :exclusive "true"
-   (
-        box
-        :orientation "v"
-        (status_stuff)
-    )
-
+    (main)
 )
 
 (
-    defwidget status_stuff []
+    defwidget main []
     (
         box
         :class "widgets"
         :orientation "v"
-        "2"
-        ""
+        (workspaces)
+        (status)
     )
 
 )
 
+(
+    defwidget workspaces []
+    (
+        box
+        :class "workspaces"
+        :orientation "v"
+        :valign "start"
+        (
+            literal
+            :content wrkspc
+        )
+    )
+)
+
+(
+    defwidget status []
+    (
+        box
+        :class "status"
+        :spacing 0
+        :orientation "v"
+        :valign "end"
+
+        ;22(wolume_slider)
+        ;(battary_status)
+        (box :class "border" :tooltip bat_cap bat_icon )
+        (box :class "lnag" lang)
+        (box :class "clocks" :orientation "v" hourse minutes)
+    )
+)
+
+(
+    defwidget battary_status []
+    (
+        eventbox
+        :onhover "${eww} update bat_reval=true"
+        :onhoverlost "${eww} update bat_reval=false"
+        (
+            box
+            :orientation "v"
+            
+            bat_icon
+        )
+    )
+)
+
+(
+    defwidget wolume_slider []
+    (
+        eventbox
+        :onhover "${eww} update vol_reval=true"
+        :onhoverlost "${eww} update vol_reval=false"
+        (
+            box
+            :orientation "v"
+            (
+                revealer
+                :transition "crossfade"
+                :reveal vol_reval
+                (
+                    label
+                    :text bat_cap
+                    :angle 90
+                )
+            )
+            "󰕾"
+        )
+    )
+)

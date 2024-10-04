@@ -1,0 +1,50 @@
+@import 'colors-waybar.css';
+
+* {
+  all: unset;
+}
+
+.menu {
+    all: unset;
+}
+
+.main_box {
+    all: unset;
+    border-radius:13;
+    border-width: 5;
+    border: 4 solid @color14;
+    border-radius:13;
+    background: @background_rgba;
+    color: @color15;
+    padding: 2;
+    padding: 5px;
+    font-size: 25;
+    font-family: "JetBrainsMono Nerd Font";
+
+}
+
+button{
+  all: unset;
+  font-size: 30;
+}
+
+.metric scale trough highlight {
+  all: unset;
+  background-color: @color2;
+  color: #000000;
+  border-radius: 15px;
+}
+.metric scale trough {
+  all: unset;
+  background-color: @color5;
+  border-radius: 100px;
+  min-height: 450px;
+  min-width: 25px;
+}
+.status_stuff {
+    font-size: 45;
+}
+
+.tooltip {
+    background: black;
+}

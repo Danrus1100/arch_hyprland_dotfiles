@@ -1,0 +1,101 @@
+(
+  defwindow menu
+  :monitor 0
+  :geometry (geometry :x "0%"
+    :y "25px"
+    :width "50%"
+    :height "30%"
+  :anchor "bottom center")
+  :stacking "overlay"
+  (
+    box
+    :orientation "h"
+    :class "main_box"
+    (
+      box
+      :orientation "v"
+      (plr)
+      time
+      
+      (
+        box
+        :orientation "h"
+        bat_charge
+      )
+      (
+        systray
+        :icon-size 40
+      )
+    )
+    (
+      box
+      :space-evenly true
+      :halign "end"
+      :spacing 50
+      (metric :label "󰕾" :value volume :onchange "amixer -D pulse sset Master {}%")
+      (metric :label "" :value microphone :onchange "amixer -D pulse sset Capture {}%") 
+    )
+  )
+)
+
+
+(defwidget metric [label value onchange]
+  (
+    box :orientation "v"
+    :class "metric"
+    :space-evenly false
+    (scale :min 0
+      :max 101
+      :active {onchange != ""}
+      :value value
+      :orientation "v"
+      :flipped true
+    :onchange onchange)
+    (box :class "label" label)
+    
+  )
+)
+
+(
+  defwidget plr []
+  (
+    box
+    :orientation "h"
+    ;(image :path plr_art )
+    (
+      box
+      :orientation "v"
+      ;:spacing 20
+      ;:halign "start"
+      plr_title
+      plr_artist
+      (
+        box
+        :orientation "h"
+        (button "󰒮")
+        (button "󰏤")
+        (button "󰒭")
+      )
+    )
+  )
+)
+
+
+
+(defpoll time :interval "5s"
+"date '+%H:%M    %d %B %Y   %a'")
+
+(defpoll volume :interval "1s"
+"sh getvol")
+
+(defpoll microphone :interval "1s"
+"sh getmic")
+
+(defpoll bt_status :interval "1s"
+"sh bt_status.sh")
+
+(defpoll bat_charge :interval "10m" 'echo "󰁹 $(cat /sys/class/power_supply/BAT1/capacity)%"')
+
+(defpoll plr_title :interval "1s" 'playerctl metadata xesam:title ')
+(defpoll plr_artist :interval "1s" 'playerctl metadata xesam:artist')
+(defpoll plr_art :interval "1s" 'playerctl metadata mpris:artUrl')

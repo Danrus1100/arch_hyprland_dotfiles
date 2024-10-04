@@ -1,0 +1,21 @@
+(
+    defwindow lang
+    :monitor 0
+    :geometry (geometry :x "0%"
+                        :y "25px"
+                        :width "10%"
+                        :height "10%"
+                        :anchor "center")
+    :stacking "overlay"
+    (
+     box
+     :class "main_box"
+     lang_s
+    )
+)
+
+(defpoll lang_s :interval "1m" 'sh ~/bin/get-lang.sh')
+    
+
+
+

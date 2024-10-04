@@ -1,5 +1,415 @@
 New PolkitAgentListener  0x63931e409800
-Adding new listener  PolkitQt1::Agent::Listener(0x63931e408e90) for  0x63931e409800
+Ading new listener  PolkitQt1::Agent::Listener(0x63931e408e90) for  0x63931e409800
 Listener online
 Authentication agent result: true
 The Wayland connection broke. Did the Wayland compositor die?
+[2024-08-19 22:07:01.864] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:07:01.868] [info] Discovered appearance 'dark'
+[2024-08-19 22:07:01.868] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.868: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.869: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.869: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.869: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:07:01.869: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:07:01.873] [info] Hyprland IPC starting
+[2024-08-19 22:07:01.875] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:07:01.918] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:09:37.808] [info] Reloading...
+[2024-08-19 22:09:37.815] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:09:37.816] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:09:37.816: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:09:37.851] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:09:37.884] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:09:38.079] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:09:38.103] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:32:42.305] [info] Reloading...
+[2024-08-19 22:32:42.316] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:32:42.316] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:42.316: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:32:42.358] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:32:42.442] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:32:43.123] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:32:43.145] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:32:44.593] [info] Reloading...
+[2024-08-19 22:32:44.597] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:32:44.598] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.598: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.598: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.598: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.598: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.598: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.598: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.599: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.599: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.599: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.599: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:44.599: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:32:44.649] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:32:44.717] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:32:45.224] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:32:45.255] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:32:48.716] [info] Reloading...
+[2024-08-19 22:32:48.728] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:32:48.729] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:32:48.729: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:32:48.778] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:32:48.882] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:32:49.295] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:32:49.323] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:09.022] [info] Reloading...
+[2024-08-19 22:37:09.039] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:37:09.039] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:09.039: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:37:09.052] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:09.076] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:37:09.458] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:37:09.474] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:27.642] [info] Reloading...
+[2024-08-19 22:37:27.644] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:37:27.644] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.644: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.644: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:27.645: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:37:27.677] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:27.718] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:37:28.518] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:37:28.530] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:30.099] [info] Reloading...
+[2024-08-19 22:37:30.116] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:37:30.116] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.116: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.116: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:30.117: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:37:30.154] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:30.177] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:37:30.563] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:37:30.575] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:50.842] [info] Reloading...
+[2024-08-19 22:37:50.859] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:37:50.859] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.859: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:37:50.860: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:37:50.873] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:37:50.885] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:37:51.621] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:37:51.631] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:38:53.213] [info] Reloading...
+[2024-08-19 22:38:53.215] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:38:53.215] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.215: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.215: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:53.216: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:38:53.267] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:38:53.313] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:38:53.699] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:38:53.719] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:38:58.198] [info] Reloading...
+[2024-08-19 22:38:58.201] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:38:58.201] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:38:58.202: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:38:58.221] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:38:58.242] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:38:58.749] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:38:58.766] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:39:06.471] [info] Reloading...
+[2024-08-19 22:39:06.474] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:39:06.474] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:06.474: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:39:06.499] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:39:06.528] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:39:06.805] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:39:06.814] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:39:15.484] [info] Reloading...
+[2024-08-19 22:39:15.486] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:39:15.486] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:39:15.486: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:39:15.512] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:39:15.535] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:39:15.861] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:39:15.881] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:42:47.256] [info] Reloading...
+[2024-08-19 22:42:47.259] [info] Using configuration file /home/danrus/.config/waybar/2/config
+[2024-08-19 22:42:47.260] [info] Using CSS file /home/danrus/.config/waybar/2/style.css
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:7:17: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:9:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:18:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:19:19: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:20:13: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:21:20: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:24:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:28:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:31:14: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:35:21: Not using units is deprecated. Assuming 'px'.
+
+(waybar:43159): Gtk-WARNING **: 22:42:47.260: Theme parsing error: style.css:38:14: Not using units is deprecated. Assuming 'px'.
+[2024-08-19 22:42:47.294] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 22:42:47.336] [info] Bar configured (width: 53, height: 1080) for output: eDP-1
+[2024-08-19 22:42:48.018] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-19 22:42:48.039] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-20 00:02:17.119] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-20 00:02:17.132] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-20 00:02:23.158] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2024-08-20 00:02:23.167] [info] Loading persistent workspaces from Hyprland workspace rules
+Gdk-Message: 00:02:46.515: Error reading events from display: Обрыв канала

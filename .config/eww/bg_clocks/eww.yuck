@@ -1,0 +1,19 @@
+(
+ defwindow clock
+ :monitor 0
+ :geometry (geometry :x "0%"
+                     :y "0%"
+                     :width "50%"
+                     :height "50%"
+                     :anchor "center")
+ :stacking "bg"
+ :exclusive "false"
+ :focusable "false"
+ time
+)
+
+(
+ defpoll time 
+ :interval "5s"
+  `date +%H:%M`
+)

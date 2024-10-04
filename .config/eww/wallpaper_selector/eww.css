@@ -1,0 +1,47 @@
+@import 'colors-waybar.css';
+
+* {
+  all: unset;
+}
+
+.menu {
+}
+
+.main_box {
+    all: unset;
+    border-radius:13;
+    border-width: 5;
+    border: 4 solid @color14;
+    border-radius:13;
+    background: @background_rgba;
+    color: @color15;
+    padding: 2;
+    padding: 5px;
+    font-size: 25;
+    font-family: "JetBrainsMono Nerd Font";
+
+}
+
+
+.btn {
+  all: unset;
+  border-radius:13;
+    border-width: 5;
+    border: 4 solid @color14;
+    border-radius:13;
+    background: @background_rgba;
+    color: @color15;
+    padding: 2;
+    padding: 5px;
+    font-size: 25;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+button{
+  all: unset
+}
+
+image {
+  border-radius: 50%;
+}
+

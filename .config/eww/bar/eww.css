@@ -1,14 +1,45 @@
 @import 'colors-waybar.css';
 
 
-.widgets{
-    border-radius:13;
-    border-width: 5;
+.bar {
+    all: unset;
+    border-radius: 12;
     border: 4 solid @color14;
-    border-radius:13;
     background: @background_rgba;
+    font-size: 20px;
+}
+
+.widgets{
+    border-radius: 13;
+    background: transparent;
     color: @color15;
-    padding: 2;
+    padding: 1;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+button {
+    all: unset;
+    padding: 5;
+    margin: 3;
+    border-radius: 10;
+}
+
+.workspaces {
+    border-width: 5;
+    /*border: 4 solid @color14; */
+    background: @background_rgba;
+    border-radius: 12;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.status {
+    padding: 1;
+}
+
+.clocks {
+    margin-bottom: 7px;
+    margin-top: 7px;
 }
 
 

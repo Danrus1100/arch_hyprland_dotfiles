@@ -1,0 +1,30 @@
+(
+    defwindow wallpapers
+    :monitor 0
+    :geometry (geometry :x "0%"
+                        :y "0%"
+                        :width "KEY_WIDTH%"
+                        :height "65%"
+                        :anchor "center")
+    :stacking "overlay"
+    :exclusive true
+    :focusable true
+    ;:namespace "wallpapers"
+    (
+     box
+     :class "main_box"
+     :orientation "v"
+     
+     ;:space-evenly false
+     (
+     scroll
+     :vscroll: true
+     ;(literal :content btns)
+     ;(box :orientation "v" (box :orientation 'v' :class 'main_box' (image :path '{CACHE_DIRECTORY}{wallpaper_name}.png' :image-width 200) (button '{wallpaper_name}')) )
+     (box :orientation "v" :spacing 5 KEY_BTNS)
+     )
+     
+    )
+)
+
+

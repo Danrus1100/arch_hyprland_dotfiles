@@ -1,0 +1,5 @@
+[pyprland]
+plugins = ["expose", "fetch_client_menu"]
+
+[expose]
+include_special = true

@@ -1,0 +1,21 @@
+(
+    defwindow desktop
+    :monitor 0
+    :geometry (geometry :x "0%"
+                        :y "25px"
+                        :width "10%"
+                        :height "10%"
+                        :anchor "center")
+    :stacking "overlay"
+    (
+     box
+     :class "main_box"
+     desktop_number
+    )
+)
+
+(defpoll desktop_number :interval "1m" 'hyprctl activeworkspace -j | jq .id ')
+    
+
+
+

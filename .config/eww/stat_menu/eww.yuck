@@ -13,7 +13,8 @@
      :orientation "v"
      time
      (metric :label "󰕾" :value volume :onchange "amixer -D pulse sset Master {}%")
-     ;(metric :label "" :value microphone :onchange "amixer -D pulse sset Capture {}%") ;uncomment if u want the mic control (dosent work on my pc)
+     (metric :label "" :value microphone :onchange "amixer -D pulse sset Capture {}%") ;uncomment if u want the mic control (dosent work on my pc)
+     bat_charge
      (systray
       :icon-size 40
      )
@@ -45,9 +46,10 @@
     )
 )
 
+(defpoll bat_charge :interval "10m" 'echo "󰁹 $(cat /sys/class/power_supply/BAT1/capacity)%"')
 
 (defpoll time :interval "5s"
-  "date '+%H:%M    %d %B %Y   %A'")
+  "date '+%H:%M    %d %B %Y   %a'")
 
 (defpoll volume :interval "1s"
   "sh getvol")
