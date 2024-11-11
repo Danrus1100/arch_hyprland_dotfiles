@@ -20,14 +20,14 @@
 
 # KeyBinds:
 
-- Super + Space = Wofi
+- Alt + Space = Wofi
 - Super + Q = Wallpapers changer
 - Super + Enter = Open Kitty
 - Super + B = Hide Bar
 - Super + V = Clipboard Manager
 - Super + E = EWW Status Menu
 - Super + L = Hyprlock
-- Caps = Change Languague
+- Super + Space = Change Languague
 - Super + Shift + Escape = Exit Hyprland
 - Super + Escape = Power Menu
 - Super + S = Scratchpad
